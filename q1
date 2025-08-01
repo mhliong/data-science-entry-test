@@ -1,10 +1,8 @@
 def swap(x, y):
-
-x = 9
-y = 17
-
-if type(x) = int  and type(y)=int:
-  print(x,y)
+    if isinstance(x, int) and isinstance(y, int):
+        return -1  
+    else:
+        print(y, x)  
 
 
     """
@@ -14,8 +12,9 @@ if type(x) = int  and type(y)=int:
     - Return -1 if x and y is not numeric, and
     - print the swapped values if both x and y are numeric.
     """
-    return
-
+    
+swap ("Apple", 10)
+swap (9,17) 
 
 # Task 2
 # Invoke the function "swap" using the following scenarios:
